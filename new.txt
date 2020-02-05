@@ -1,1 +1,19 @@
 hello
+
+Terminal dictionary - 
+
+# - koodina ei loe
+Sublime macile Visual Studio Code alternatiiv
+int on täisarv ja ;
+float on komakohtadega
+list [väärtused]
+object {väärtused} - spetsiifilisem
+string - tähed
+* tähendab kõike
+Võrdlemine programmeerimises on kahe võrdusmärgiga ==
+Spetsiifiline võrdlus kolme võrdusmärgiga ===
+
+mida rohkem vasakul pool koodirida seda tähtsam
+
+if - elif (else if kui muust pole kasu)
+	else (kui miski muu ei tööta)
