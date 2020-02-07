@@ -1,1 +1,1 @@
-Tere
+print("hello")
