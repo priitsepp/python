@@ -66,18 +66,41 @@ from math import*
 #if värv=="must":
    # print(3)
 
-nimi = "tester"
-print(len(nimi))
-if len(nimi)>8:
-    print("Liiga pikk")
+#nimi = "tester"
+#print(len(nimi))
+#if len(nimi)>8:
+    #print("Liiga pikk")
 
-kasutajanimi=input("Kes sa oled? - ")
-if len(kasutajanimi)>20:
-    print("Error")
-if len(kasutajanimi)<8:
-    print("Error")
-elif len(nimi)<3:
-    print("Toene!")
-else:
-    print("Nojah")
-if 3>2: print("shorthand")
+#kasutajanimi=input("Kes sa oled? - ")
+#if len(kasutajanimi)>20:
+    #print("Error")
+#if len(kasutajanimi)<8:
+    #print("Error")
+#elif len(nimi)<3:
+    #print("Toene!")
+#else:
+    #print("Nojah")
+#if 3>2: print("shorthand")
+   
+#if 3==4 or 4==4:
+    #print("on olemas")
+    
+#if 4==4:
+    #if 5==4:
+        #print("on olemas nested if")
+        
+#annaarv=int(input("Sisesta arv - "))
+#if annaarv%2==0:
+    #print("Paaris")
+#else:
+    #print("Paaritu")
+
+#aastaarv=int(input("Sisesta aastaarv - "))
+#if aastaarv%100==0:
+    #if aastaarv%400!=0:
+        #print("Lihtaasta")
+        
+#elif aastaarv%4==0:
+        #print("Liigaasta")
+#else: print("Lihtaasta")
+   

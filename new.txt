@@ -17,3 +17,8 @@ mida rohkem vasakul pool koodirida seda tähtsam
 
 if - elif (else if kui muust pole kasu)
 	else (kui miski muu ei tööta)
+
+!= ei võrdu ifis
+
+Kordused pythonis:
+	#While ja #for
