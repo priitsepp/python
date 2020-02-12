@@ -22,3 +22,6 @@ if - elif (else if kui muust pole kasu)
 
 Kordused pythonis:
 	#While ja #for
+Dokumentatsioon: docs.python.org
+
+.append lisamine listi
