@@ -3,3 +3,9 @@ def rist_pind():
     kulgb = int(input("Anna teine külg? - "))
     x = kulga*kulgb
     return x
+
+def rist_ymber():
+    pikkus = int(input("Anna ristküliku pikkus? -"))
+    laius = int(input("Anna ristküliku laius? -"))
+    x= 2*(pikkus+laius)
+    return x
