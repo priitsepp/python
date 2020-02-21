@@ -26,3 +26,7 @@ number = 20
 if number > 10:
     raise Exception("Sorry see number ei sobi")   #ANNAB VEALE INFORMATSIOONI JUURDE
 
+tekst = "tervist"
+
+if not type(tekst) is int:
+    raise TypeError("Ainult numbrid lubatud")
