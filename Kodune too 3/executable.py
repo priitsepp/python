@@ -6,29 +6,43 @@ arvuti = "O"
 mangKaib = True
 kaiguVaartus = 0
 mangulaud = [".",".",".",".",".",".",".",".",".","."]
-sygavus = 0
+sygavus = 2
 
 #Mänguprotsess
 while mangKaib:
     if sygavus<9:
         joonista(mangulaud)
         kaiguVaartus = int(input("Sisesta käik - "))
-        if mangulaud[kaiguVaartus] == ".":
-            if sygavus%2:
-                teeKaik(mangulaud, kaiguVaartus, arvuti)
-                if winning(mangulaud, arvuti):
-                    joonista.mangulaud
-                    print("Võit!!!")
-                    mangKaib = False
-            else:
-                teeKaik(mangulaud, kaiguVaartus, mangija)
-                if winning(mangulaud, mangija):
-                    joonista.mangulaud
-                    print("Võit!!!")
-                    mangKaib = False
+        if sygavus==2:
+            muutuja = arvutiKaik(mangulaud, arvuti)
+            print(muutuja)
+            teeKaik(mangulaud, muutuja, arvuti)
+            if winning(mangulaud, arvuti):
+                print("Võit!!!")
+                mangKaib = False
+            
+        teeKaik(mangulaud, kaiguVaartus, mangija)
+        if winning(mangulaud, mangija):
+            print("Võit!!!")
+            mangKaib = False
         else:
             continue
         sygavus=sygavus+1
+        print(sygavus)
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
     else:
         joonista(mangulaud)
         print("Viik!")
